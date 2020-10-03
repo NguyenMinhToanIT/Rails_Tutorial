@@ -1,0 +1,300 @@
+1 From zero to deploy 1 => FINISH
+1.1 Up and running . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.1.1 Development environment . . . . . . . . . . . . . . . 5
+1.1.2 Installing Rails . . . . . . . . . . . . . . . . . . . . . 13
+1.2 The first application . . . . . . . . . . . . . . . . . . . . . . . 14
+1.2.1 Bundler . . . . . . . . . . . . . . . . . . . . . . . . . 18
+1.2.2 rails server . . . . . . . . . . . . . . . . . . . . 23
+1.2.3 Model-View-Controller (MVC) . . . . . . . . . . . . 31
+1.2.4 Hello, world! . . . . . . . . . . . . . . . . . . . . . . 32
+1.3 Version control with Git . . . . . . . . . . . . . . . . . . . . . 39
+1.3.1 Installation and setup . . . . . . . . . . . . . . . . . . 39
+1.3.2 What good does Git do you? . . . . . . . . . . . . . . 43
+1.3.3 GitHub . . . . . . . . . . . . . . . . . . . . . . . . . 44
+1.3.4 Branch, edit, commit, merge . . . . . . . . . . . . . . 49
+1.4 Deploying . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+1.4.1 Heroku setup . . . . . . . . . . . . . . . . . . . . . . 57
+1.4.2 Heroku deployment, step one . . . . . . . . . . . . . 61
+1.4.3 Heroku deployment, step two . . . . . . . . . . . . . 61
+1.4.4 Heroku commands . . . . . . . . . . . . . . . . . . . 63
+1.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+1.5.1 What we learned in this chapter . . . . . . . . . . . . 64
+1.6 Conventions used in this book . . . . . . . . . . . . . . . . . 65
+
+
+
+2  A toy app 69 => FINISH
+2.1 Planning the application . . . . . . . . . . . . . . . . . . . . 70
+2.1.1 A toy model for users . . . . . . . . . . . . . . . . . . 74
+2.1.2 A toy model for microposts . . . . . . . . . . . . . . 75
+2.2 The Users resource . . . . . . . . . . . . . . . . . . . . . . . 76
+2.2.1 A user tour . . . . . . . . . . . . . . . . . . . . . . . 79
+2.2.2 MVC in action . . . . . . . . . . . . . . . . . . . . . 87
+2.2.3 Weaknesses of this Users resource . . . . . . . . . . . 95
+2.3 The Microposts resource . . . . . . . . . . . . . . . . . . . . 95
+2.3.1 A micropost microtour . . . . . . . . . . . . . . . . . 96
+2.3.2 Putting the micro in microposts . . . . . . . . . . . . 102
+2.3.3 A user has_many microposts . . . . . . . . . . . . . 104
+2.3.4 Inheritance hierarchies . . . . . . . . . . . . . . . . . 107
+2.3.5 Deploying the toy app . . . . . . . . . . . . . . . . . 113
+2.4 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+2.4.1 What we learned in this chapter . . . . . . . . . . . . 118
+
+
+3  Mostly static pages 119 => 3 FINISH
+3.1 Sample app setup . . . . . . . . . . . . . . . . . . . . . . . . 120
+3.2 Static pages . . . . . . . . . . . . . . . . . . . . . . . . . . . 128
+3.2.1 Generated static pages . . . . . . . . . . . . . . . . . 128
+3.2.2 Custom static pages . . . . . . . . . . . . . . . . . . . 138
+3.3 Getting started with testing . . . . . . . . . . . . . . . . . . . 139
+3.3.1 Our first test . . . . . . . . . . . . . . . . . . . . . . 143
+3.3.2 Red . . . . . . . . . . . . . . . . . . . . . . . . . . . 145
+3.3.3 Green . . . . . . . . . . . . . . . . . . . . . . . . . . 146
+3.3.4 Refactor . . . . . . . . . . . . . . . . . . . . . . . . . 149
+3.4 Slightly dynamic pages . . . . . . . . . . . . . . . . . . . . . 151
+3.4.1 Testing titles (Red) . . . . . . . . . . . . . . . . . . . 152
+3.4.2 Adding page titles (Green) . . . . . . . . . . . . . . . 153
+3.4.3 Layouts and embedded Ruby (Refactor) . . . . . . . . 157
+3.4.4 Setting the root route . . . . . . . . . . . . . . . . . . 165
+3.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
+3.5.1 What we learned in this chapter . . . . . . . . . . . . 169
+3.6 Advanced testing setup . . . . . . . . . . . . . . . . . . . . . 170
+3.6.1 minitest reporters . . . . . . . . . . . . . . . . . . . . 170
+3.6.2 Automated tests with Guard . . . . . . . . . . . . . . 171
+
+
+4  Rails-flavored Ruby 175 => PENDING
+4.1 Motivation . . . . . . . . . . . . . . . 3/10. . . . . . . . . . . . . 175
+4.1.1 Built-in helpers . . . . . . . . . . . .3/10 . . . . . . . . . 176
+4.1.2 Custom helpers . . . . . . . . . . . . 3/10. . . . . . . . . 177
+4.2 Strings and methods . . . . . . . . . . . 3/10. . . . . . . . . . . . 181
+4.2.1 Comments . . . . . . . . . . . . . . . . . . . . . . . 182
+4.2.2 Strings . . . . . . . . . . . . . . . . . . . . . . . . . 183
+4.2.3 Objects and message passing . . . . . . . . . . . . . . 187
+4.2.4 Method definitions . . . . . . . . . . . . . . . . . . . 191
+4.2.5 Back to the title helper . . . . . . . . . . . . . . . . . 193
+4.3 Other data structures . . . . . . . . . . . . . . . . . . . . . . 194
+4.3.1 Arrays and ranges . . . . . . . . . . . . . . . . . . . 194
+4.3.2 Blocks . . . . . . . . . . . . . . . . . . . . . . . . . 199
+4.3.3 Hashes and symbols . . . . . . . . . . . . . . . . . . 203
+4.3.4 CSS revisited . . . . . . . . . . . . . . . . . . . . . . 208
+4.4 Ruby classes . . . . . . . . . . . . . . . . . . . . . . . . . . . 210
+4.4.1 Constructors . . . . . . . . . . . . . . . . . . . . . . 210
+4.4.2 Class inheritance . . . . . . . . . . . . . . . . . . . . 212
+4.4.3 Modifying built-in classes . . . . . . . . . . . . . . . 216
+4.4.4 A controller class . . . . . . . . . . . . . . . . . . . . 218
+4.4.5 A user class . . . . . . . . . . . . . . . . . . . . . . . 220
+4.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 223
+4.5.1 What we learned in this chapter . . . . . . . . . . . . 224
+
+
+5  Filling in the layout 227
+5.1 Adding some structure . . . . . . . . . . . . . . . . . . . . . 228
+5.1.1 Site navigation . . . . . . . . . . . . . . . . . . . . . 228
+5.1.2 Bootstrap and custom CSS . . . . . . . . . . . . . . . 240
+5.1.3 Partials . . . . . . . . . . . . . . . . . . . . . . . . . 249
+5.2 Sass and the asset pipeline . . . . . . . . . . . . . . . . . . . 255
+5.2.1 The asset pipeline . . . . . . . . . . . . . . . . . . . . 256
+5.2.2 Syntactically awesome stylesheets . . . . . . . . . . . 259
+5.3 Layout links . . . . . . . . . . . . . . . . . . . . . . . . . . . 266
+5.3.1 Contact page . . . . . . . . . . . . . . . . . . . . . . 267
+5.3.2 Rails routes . . . . . . . . . . . . . . . . . . . . . . . 269
+5.3.3 Using named routes . . . . . . . . . . . . . . . . . . . 273
+5.3.4 Layout link tests . . . . . . . . . . . . . . . . . . . . 274
+5.4 User signup: A first step . . . . . . . . . . . . . . . . . . . . 280
+5.4.1 Users controller . . . . . . . . . . . . . . . . . . . . . 280
+5.4.2 Signup URL . . . . . . . . . . . . . . . . . . . . . . 282
+5.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
+5.5.1 What we learned in this chapter . . . . . . . . . . . . 286
+
+6  Modeling users 289
+6.1 User model . . . . . . . . . . . . . . . . . . . . . . . . . . . 290
+6.1.1 Database migrations . . . . . . . . . . . . . . . . . . 292
+6.1.2 The model file . . . . . . . . . . . . . . . . . . . . . 299
+6.1.3 Creating user objects . . . . . . . . . . . . . . . . . . 300
+6.1.4 Finding user objects . . . . . . . . . . . . . . . . . . 304
+6.1.5 Updating user objects . . . . . . . . . . . . . . . . . . 306
+6.2 User validations . . . . . . . . . . . . . . . . . . . . . . . . . 308
+6.2.1 A validity test . . . . . . . . . . . . . . . . . . . . . . 309
+6.2.2 Validating presence . . . . . . . . . . . . . . . . . . . 311
+6.2.3 Length validation . . . . . . . . . . . . . . . . . . . . 315
+6.2.4 Format validation . . . . . . . . . . . . . . . . . . . . 317
+6.2.5 Uniqueness validation . . . . . . . . . . . . . . . . . 324
+6.3 Adding a secure password . . . . . . . . . . . . . . . . . . . 334
+6.3.1 A hashed password . . . . . . . . . . . . . . . . . . . 334
+6.3.2 User has secure password . . . . . . . . . . . . . . . 337
+6.3.3 Minimum password standards . . . . . . . . . . . . . 339
+6.3.4 Creating and authenticating a user . . . . . . . . . . . 342
+6.4 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 345
+6.4.1 What we learned in this chapter . . . . . . . . . . . . 346
+
+7  Sign up 349
+7.1 Showing users . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+7.1.1 Debug and Rails environments . . . . . . . . . . . . . 350
+7.1.2 A Users resource . . . . . . . . . . . . . . . . . . . . 358
+7.1.3 Debugger . . . . . . . . . . . . . . . . . . . . . . . . 365
+7.1.4 A Gravatar image and a sidebar . . . . . . . . . . . . 367
+7.2 Signup form . . . . . . . . . . . . . . . . . . . . . . . . . . . 374
+7.2.1 Using form_for . . . . . . . . . . . . . . . . . . . 377
+7.2.2 Signup form HTML . . . . . . . . . . . . . . . . . . 380
+7.3 Unsuccessful signups . . . . . . . . . . . . . . . . . . . . . . 385
+7.3.1 A working form . . . . . . . . . . . . . . . . . . . . . 385
+7.3.2 Strong parameters . . . . . . . . . . . . . . . . . . . 389
+7.3.3 Signup error messages . . . . . . . . . . . . . . . . . 393
+7.3.4 A test for invalid submission . . . . . . . . . . . . . . 397
+7.4 Successful signups . . . . . . . . . . . . . . . . . . . . . . . 402
+7.4.1 The finished signup form . . . . . . . . . . . . . . . . 402
+7.4.2 The flash . . . . . . . . . . . . . . . . . . . . . . . . 406
+7.4.3 The first signup . . . . . . . . . . . . . . . . . . . . . 410
+7.4.4 A test for valid submission . . . . . . . . . . . . . . . 414
+7.5 Professional-grade deployment . . . . . . . . . . . . . . . . . 417
+7.5.1 SSL in production . . . . . . . . . . . . . . . . . . . 417
+7.5.2 Production webserver . . . . . . . . . . . . . . . . . . 419
+7.5.3 Production database configuration . . . . . . . . . . . 420
+7.5.4 Production deployment . . . . . . . . . . . . . . . . . 421
+7.6 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 423
+7.6.1 What we learned in this chapter . . . . . . . . . . . . 424
+
+
+8 Basic login 427
+8.1 Sessions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 428
+8.1.1 Sessions controller . . . . . . . . . . . . . . . . . . . 429
+8.1.2 Login form . . . . . . . . . . . . . . . . . . . . . . . 432
+8.1.3 Finding and authenticating a user . . . . . . . . . . . 437
+8.1.4 Rendering with a flash message . . . . . . . . . . . . 441
+8.1.5 A flash test . . . . . . . . . . . . . . . . . . . . . . . 445
+8.2 Logging in . . . . . . . . . . . . . . . . . . . . . . . . . . . . 447
+8.2.1 The log_in method . . . . . . . . . . . . . . . . . . 448
+8.2.2 Current user . . . . . . . . . . . . . . . . . . . . . . . 451
+8.2.3 Changing the layout links . . . . . . . . . . . . . . . 456
+8.2.4 Testing layout changes . . . . . . . . . . . . . . . . . 463
+8.2.5 Login upon signup . . . . . . . . . . . . . . . . . . . 470
+8.3 Logging out . . . . . . . . . . . . . . . . . . . . . . . . . . . 473
+8.4 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 476
+8.4.1 What we learned in this chapter . . . . . . . . . . . . 477
+
+9 Advanced login 479
+9.1 Remember me . . . . . . . . . . . . . . . . . . . . . . . . . . 479
+9.1.1 Remember token and digest . . . . . . . . . . . . . . 480
+9.1.2 Login with remembering . . . . . . . . . . . . . . . . 487
+9.1.3 Forgetting users . . . . . . . . . . . . . . . . . . . . . 497
+9.1.4 Two subtle bugs . . . . . . . . . . . . . . . . . . . . 500
+9.2 “Remember me” checkbox . . . . . . . . . . . . . . . . . . . 505
+9.3 Remember tests . . . . . . . . . . . . . . . . . . . . . . . . . 512
+9.3.1 Testing the “remember me” box . . . . . . . . . . . . 512
+9.3.2 Testing the remember branch . . . . . . . . . . . . . . 518
+9.4 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 522
+9.4.1 What we learned in this chapter . . . . . . . . . . . . 523
+
+
+
+10 Updating, showing, and deleting users 527
+10.1 Updating users . . . . . . . . . . . . . . . . . . . . . . . . . 527
+10.1.1 Edit form . . . . . . . . . . . . . . . . . . . . . . . . 528
+10.1.2 Unsuccessful edits . . . . . . . . . . . . . . . . . . . 536
+10.1.3 Testing unsuccessful edits . . . . . . . . . . . . . . . 537
+10.1.4 Successful edits (with TDD) . . . . . . . . . . . . . . 540
+10.2 Authorization . . . . . . . . . . . . . . . . . . . . . . . . . . 545
+10.2.1 Requiring logged-in users . . . . . . . . . . . . . . . 545
+10.2.2 Requiring the right user . . . . . . . . . . . . . . . . 552
+10.2.3 Friendly forwarding . . . . . . . . . . . . . . . . . . 557
+10.3 Showing all users . . . . . . . . . . . . . . . . . . . . . . . . 562
+10.3.1 Users index . . . . . . . . . . . . . . . . . . . . . . . 562
+10.3.2 Sample users . . . . . . . . . . . . . . . . . . . . . . 568
+10.3.3 Pagination . . . . . . . . . . . . . . . . . . . . . . . 571
+10.3.4 Users index test . . . . . . . . . . . . . . . . . . . . . 578
+10.3.5 Partial refactoring . . . . . . . . . . . . . . . . . . . . 580
+10.4 Deleting users . . . . . . . . . . . . . . . . . . . . . . . . . . 582
+10.4.1 Administrative users . . . . . . . . . . . . . . . . . . 582
+10.4.2 The destroy action . . . . . . . . . . . . . . . . . . 588
+10.4.3 User destroy tests . . . . . . . . . . . . . . . . . . . . 591
+10.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 595
+10.5.1 What we learned in this chapter . . . . . . . . . . . . 597
+
+
+
+
+11 Account activation 599
+11.1 Account activations resource . . . . . . . . . . . . . . . . . . 601
+11.1.1 Account activations controller . . . . . . . . . . . . . 601
+11.1.2 Account activation data model . . . . . . . . . . . . . 603
+11.2 Account activation emails . . . . . . . . . . . . . . . . . . . . 610
+11.2.1 Mailer templates . . . . . . . . . . . . . . . . . . . . 610
+11.2.2 Email previews . . . . . . . . . . . . . . . . . . . . . 616
+11.2.3 Email tests . . . . . . . . . . . . . . . . . . . . . . . 618
+11.2.4 Updating the Users create action . . . . . . . . . . 623
+11.3 Activating the account . . . . . . . . . . . . . . . . . . . . . 626
+11.3.1 Generalizing the authenticated? method . . . . 628
+11.3.2 Activation edit action . . . . . . . . . . . . . . . . 633
+11.3.3 Activation test and refactoring . . . . . . . . . . . . . 638
+11.4 Email in production . . . . . . . . . . . . . . . . . . . . . . . 644
+11.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 647
+11.5.1 What we learned in this chapter . . . . . . . . . . . . 647
+
+
+
+12 Password reset 651
+12.1 Password resets resource . . . . . . . . . . . . . . . . . . . . 655
+12.1.1 Password resets controller . . . . . . . . . . . . . . . 656
+12.1.2 New password resets . . . . . . . . . . . . . . . . . . 659
+12.1.3 Password reset create action . . . . . . . . . . . . 662
+12.2 Password reset emails . . . . . . . . . . . . . . . . . . . . . . 667
+12.2.1 Password reset mailer and templates . . . . . . . . . . 667
+12.2.2 Email tests . . . . . . . . . . . . . . . . . . . . . . . 674
+12.3 Resetting the password . . . . . . . . . . . . . . . . . . . . . 675
+12.3.1 Reset edit action . . . . . . . . . . . . . . . . . . . 675
+12.3.2 Updating the reset . . . . . . . . . . . . . . . . . . . 680
+12.3.3 Password reset test . . . . . . . . . . . . . . . . . . . 686
+12.4 Email in production (take two) . . . . . . . . . . . . . . . . . 692
+12.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 694
+12.5.1 What we learned in this chapter . . . . . . . . . . . . 696
+12.6 Proof of expiration comparison . . . . . . . . . . . . . . . . . 696
+
+
+
+13 User microposts 699
+13.1 A Micropost model . . . . . . . . . . . . . . . . . . . . . . . 699
+13.1.1 The basic model . . . . . . . . . . . . . . . . . . . . 700
+13.1.2 Micropost validations . . . . . . . . . . . . . . . . . . 703
+13.1.3 User/Micropost associations . . . . . . . . . . . . . . 706
+13.1.4 Micropost refinements . . . . . . . . . . . . . . . . . 711
+13.2 Showing microposts . . . . . . . . . . . . . . . . . . . . . . . 717
+13.2.1 Rendering microposts . . . . . . . . . . . . . . . . . 717
+13.2.2 Sample microposts . . . . . . . . . . . . . . . . . . . 722
+13.2.3 Profile micropost tests . . . . . . . . . . . . . . . . . 727
+13.3 Manipulating microposts . . . . . . . . . . . . . . . . . . . . 734
+13.3.1 Micropost access control . . . . . . . . . . . . . . . . 735
+13.3.2 Creating microposts . . . . . . . . . . . . . . . . . . 738
+13.3.3 A proto-feed . . . . . . . . . . . . . . . . . . . . . . 746
+13.3.4 Destroying microposts . . . . . . . . . . . . . . . . . 759
+13.3.5 Micropost tests . . . . . . . . . . . . . . . . . . . . . 766
+13.4 Micropost images . . . . . . . . . . . . . . . . . . . . . . . . 770
+13.4.1 Basic image upload . . . . . . . . . . . . . . . . . . . 770
+13.4.2 Image validation . . . . . . . . . . . . . . . . . . . . 778
+13.4.3 Image resizing . . . . . . . . . . . . . . . . . . . . . 785
+13.4.4 Image upload in production . . . . . . . . . . . . . . 789
+13.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 794
+13.5.1 What we learned in this chapter . . . . . . . . . . . . 797
+
+
+14 Following users 799
+14.1 The Relationship model . . . . . . . . . . . . . . . . . . . . . 800
+14.1.1 A problem with the data model (and a solution) . . . . 800
+14.1.2 User/relationship associations . . . . . . . . . . . . . 810
+14.1.3 Relationship validations . . . . . . . . . . . . . . . . 813
+14.1.4 Followed users . . . . . . . . . . . . . . . . . . . . . 814
+14.1.5 Followers . . . . . . . . . . . . . . . . . . . . . . . . 818
+14.2 A web interface for following users . . . . . . . . . . . . . . 821
+14.2.1 Sample following data . . . . . . . . . . . . . . . . . 821
+14.2.2 Stats and a follow form . . . . . . . . . . . . . . . . . 823
+14.2.3 Following and followers pages . . . . . . . . . . . . . 835
+14.2.4 A working follow button the standard way . . . . . . . 846
+14.2.5 A working follow button with Ajax . . . . . . . . . . 851
+14.2.6 Following tests . . . . . . . . . . . . . . . . . . . . . 856
+14.3 The status feed . . . . . . . . . . . . . . . . . . . . . . . . . 858
+14.3.1 Motivation and strategy . . . . . . . . . . . . . . . . 860
+14.3.2 A first feed implementation . . . . . . . . . . . . . . 862
+14.3.3 Subselects . . . . . . . . . . . . . . . . . . . . . . . . 866
+14.4 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 872
+14.4.1 Guide to further resources . . . . . . . . . . . . . . . 872
+14.4.2 What we learned in this chapter . . . . . . . . . . . . 874
