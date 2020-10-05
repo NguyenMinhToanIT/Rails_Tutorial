@@ -104,9 +104,9 @@ REMEMBER YOUR TARGET
 5.3.4 Layout link tests . . . . . . . . . . . . x. . . . . . . . 274
 5.4 User signup: A first step . . . . . . . . . .x . . . . . . . . . . 280
 5.4.1 Users controller . . . . . . . . . . . . . x. . . . . . . . 280
-5.4.2 Signup URL . . . . . . . . . . . . . . . . . . . . . . 282
-5.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
-5.5.1 What we learned in this chapter . . . . . .. . . . . . 286
+5.4.2 Signup URL . . . . . . . . . . . . . . . . x. . . . . . 282
+5.5 Conclusion . . . . . . . . . . . . . . . . . .x . . . . . . . . . 286
+5.5.1 What we learned in this chapter . . . . . ..x . . . . . 286
 
 6  Modeling users 289
 6.1 User model . . . . . . . . . . . . . . . . . . . . . . . . . . . 290
