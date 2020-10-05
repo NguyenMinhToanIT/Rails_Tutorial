@@ -100,13 +100,13 @@ REMEMBER YOUR TARGET
 5.3 Layout links . . . . . . . . . . . . . . . .x . . . . . . . . . . . 266
 5.3.1 Contact page . . . . . . . . . . . . . . x. . . . . . . . 267
 5.3.2 Rails routes . . . . . . . . . . . . . . .x . . . . . . . . 269
-5.3.3 Using named routes . . . . . . . . . . . . . . . . . . . 273
-5.3.4 Layout link tests . . . . . . . . . . . . . . . . . . . . 274
-5.4 User signup: A first step . . . . . . . . . . . . . . . . . . . . 280
-5.4.1 Users controller . . . . . . . . . . . . . . . . . . . . . 280
+5.3.3 Using named routes . . . . . . . . . . . .x . . . . . . . 273
+5.3.4 Layout link tests . . . . . . . . . . . . x. . . . . . . . 274
+5.4 User signup: A first step . . . . . . . . . .x . . . . . . . . . . 280
+5.4.1 Users controller . . . . . . . . . . . . . x. . . . . . . . 280
 5.4.2 Signup URL . . . . . . . . . . . . . . . . . . . . . . 282
 5.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 286
-5.5.1 What we learned in this chapter . . . . . . . . . . . . 286
+5.5.1 What we learned in this chapter . . . . . .. . . . . . 286
 
 6  Modeling users 289
 6.1 User model . . . . . . . . . . . . . . . . . . . . . . . . . . . 290

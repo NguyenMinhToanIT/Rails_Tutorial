@@ -19,6 +19,16 @@
       <li class="nav-item">
         <%= link_to 'Contact', contact_path, class:'nav-link' %>
       </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <%= link_to 'Sign up', signup_path, class:'dropdown-item' %>
+          <%= link_to 'Login', '#', class:'dropdown-item' %>
+          <%= link_to 'Logout', "#", class:'dropdown-item' %>
+        </div>
+      </li>
     </ul>
     
   </div>
