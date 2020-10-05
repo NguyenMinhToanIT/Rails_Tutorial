@@ -1,3 +1,4 @@
+REMEMBER YOUR TARGET
 1 From zero to deploy 1 => FINISH
 1.1 Up and running . . . . . . . . . . . . . . . . . . . . . . . . . 3
 1.1.1 Development environment . . . . . . . . . . . . . . . 5
@@ -68,24 +69,24 @@
 4.1.1 Built-in helpers . . . . . . . . . . . .3/10 . . . . . . . . . 176
 4.1.2 Custom helpers . . . . . . . . . . . . 3/10. . . . . . . . . 177
 4.2 Strings and methods . . . . . . . . . . . 3/10. . . . . . . . . . . . 181
-4.2.1 Comments . . . . . . . . . . . . . . . . . . . . . . . 182
-4.2.2 Strings . . . . . . . . . . . . . . . . . . . . . . . . . 183
-4.2.3 Objects and message passing . . . . . . . . . . . . . . 187
-4.2.4 Method definitions . . . . . . . . . . . . . . . . . . . 191
-4.2.5 Back to the title helper . . . . . . . . . . . . . . . . . 193
-4.3 Other data structures . . . . . . . . . . . . . . . . . . . . . . 194
-4.3.1 Arrays and ranges . . . . . . . . . . . . . . . . . . . 194
-4.3.2 Blocks . . . . . . . . . . . . . . . . . . . . . . . . . 199
-4.3.3 Hashes and symbols . . . . . . . . . . . . . . . . . . 203
-4.3.4 CSS revisited . . . . . . . . . . . . . . . . . . . . . . 208
-4.4 Ruby classes . . . . . . . . . . . . . . . . . . . . . . . . . . . 210
-4.4.1 Constructors . . . . . . . . . . . . . . . . . . . . . . 210
-4.4.2 Class inheritance . . . . . . . . . . . . . . . . . . . . 212
-4.4.3 Modifying built-in classes . . . . . . . . . . . . . . . 216
-4.4.4 A controller class . . . . . . . . . . . . . . . . . . . . 218
-4.4.5 A user class . . . . . . . . . . . . . . . . . . . . . . . 220
-4.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 223
-4.5.1 What we learned in this chapter . . . . . . . . . . . . 224
+4.2.1 Comments . . . . . . . . . . . . . . . . 3/10. . . . . . . 182
+4.2.2 Strings . . . . . . . . . . . . . . . . . x. . . . . . . . 183
+4.2.3 Objects and message passing . . . . . . . . x. . . . . . 187
+4.2.4 Method definitions . . . . . . . . . . . . . x. . . . . . 191
+4.2.5 Back to the title helper . . . . . . . . . .x . . . . . . . 193
+4.3 Other data structures . . . . . . . . . . . . x. . . . . . . . . . 194
+4.3.1 Arrays and ranges . . . . . . . . . . . . .x . . . . . . 194
+4.3.2 Blocks . . . . . . . . . . . . . . . . . . 5/10. . . . . . . 199
+4.3.3 Hashes and symbols . . . . . . . . . . . . . x. . . . . 203
+4.3.4 CSS revisited . . . . . . . . . . . . . . . x . . . . . . 208
+4.4 Ruby classes . . . . . . . . . . . . . . . . . x. . . . . . . . . . 210
+4.4.1 Constructors . . . . . . . . . . . . . . . . .x . . . . . 210
+4.4.2 Class inheritance . . . . . . . . . . . . . .x . . . . . . 212
+4.4.3 Modifying built-in classes . . . . . . . . . x. . . . . . 216
+4.4.4 A controller class . . . . . . . . . . . . .x . . . . . . . 218
+4.4.5 A user class . . . . . . . . . . . . . . . .x . . . . . . . 220
+4.5 Conclusion . . . . . . . . . . . . . . . . . . x. . . . . . . . . 223
+4.5.1 What we learned in this chapter . . . . . . .x . . . . . 224
 
 
 5  Filling in the layout 227
