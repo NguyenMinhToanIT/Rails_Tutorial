@@ -130,7 +130,7 @@ REMEMBER YOUR TARGET
 6.4.1 What we learned in this chapter . . . . . . . x. . . . . 346
 
 7  Sign up 349
-7.1 Showing users . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+7.1 Showing users . . . . . . . . . . . . . . 6/10. . . . . . . . . . . . 350
 7.1.1 Debug and Rails environments . . . . . . . . . . . . . 350
 7.1.2 A Users resource . . . . . . . . . . . . . . . . . . . . 358
 7.1.3 Debugger . . . . . . . . . . . . . . . . . . . . . . . . 365
