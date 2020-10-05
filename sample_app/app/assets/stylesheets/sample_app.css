@@ -1,0 +1,17 @@
+#navbar-personal {
+    width: 100%;
+}
+
+#navbar-personal img {
+    width: 80px;
+}
+
+#main h1,
+.btn {
+    text-align: center;
+    width: 100%;
+}
+
+.main_title {
+    margin: 0 auto;
+}

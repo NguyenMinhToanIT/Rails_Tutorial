@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
- 
+<nav class="navbar navbar-expand-sm navbar-light bg-light" id="navbar-personal">
+  <img src="/assets/logo-removebg-preview.png" alt="">
   <%= link_to 'Blog linh tinh', root_path, class: 'navbar-brand' %>
   <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -11,18 +11,15 @@
         <%= link_to 'Home', root_path, class:'nav-link' %>
       </li>
       <li class="nav-item">
-        <%= link_to 'About', static_pages_about_path, class:'nav-link' %>
+        <%= link_to 'About', about_path, class:'nav-link' %>
       </li>
       <li class="nav-item">
-        <%= link_to 'Help', static_pages_help_path, class:'nav-link' %>
+        <%= link_to 'Help', help_path, class:'nav-link' %>
       </li>
       <li class="nav-item">
-        <%= link_to 'Contact', static_pages_contact_path, class:'nav-link' %>
+        <%= link_to 'Contact', contact_path, class:'nav-link' %>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
-    </form>
+    
   </div>
 </nav>
