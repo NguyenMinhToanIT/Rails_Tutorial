@@ -19,3 +19,15 @@
 .main_title {
     margin: 0 auto;
 }
+
+.debug_dump {
+    border: 1px solid #b3abab;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #eaeaea;
+}
+
+label,
+input {
+    width: 100%;
+}
