@@ -174,7 +174,7 @@ REMEMBER YOUR TARGET
 8.4.1 What we learned in this chapter . . . .x . . . . . . . . 477
 
 9 Advanced login 479
-9.1 Remember me . . . . . . . . . . . . . . . . . . . . . . . . . . 479
+9.1 Remember me . . . . . . . . . . . . . . . x. . . . . . . . . . . 479
 9.1.1 Remember token and digest . . . . . . . . . . . . . . 480
 9.1.2 Login with remembering . . . . . . . . . . . . . . . . 487
 9.1.3 Forgetting users . . . . . . . . . . . . . . . . . . . . . 497
