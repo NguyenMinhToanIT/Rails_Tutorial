@@ -156,22 +156,22 @@ REMEMBER YOUR TARGET
 7.6.1 What we learned in this chapter . . . x. . . . . . . . . 424
 
 
-8 Basic login 427
+8 Basic login 427 
 8.1 Sessions . . . . . . . . . . . . . . . .x . . . . . . . . . . . . . 428
-8.1.1 Sessions controller . . . . . . . . . . . . . . . . . . . 429
-8.1.2 Login form . . . . . . . . . . . . . . . . . . . . . . . 432
-8.1.3 Finding and authenticating a user . . . . . . . . . . . 437
-8.1.4 Rendering with a flash message . . . . . . . . . . . . 441
-8.1.5 A flash test . . . . . . . . . . . . . . . . . . . . . . . 445
-8.2 Logging in . . . . . . . . . . . . . . . . . . . . . . . . . . . . 447
-8.2.1 The log_in method . . . . . . . . . . . . . . . . . . 448
-8.2.2 Current user . . . . . . . . . . . . . . . . . . . . . . . 451
-8.2.3 Changing the layout links . . . . . . . . . . . . . . . 456
-8.2.4 Testing layout changes . . . . . . . . . . . . . . . . . 463
-8.2.5 Login upon signup . . . . . . . . . . . . . . . . . . . 470
-8.3 Logging out . . . . . . . . . . . . . . . . . . . . . . . . . . . 473
-8.4 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 476
-8.4.1 What we learned in this chapter . . . . . . . . . . . . 477
+8.1.1 Sessions controller . . . . . . . . . .x . . . . . . . . . 429
+8.1.2 Login form . . . . . . . . . . . . . .x . . . . . . . . . 432
+8.1.3 Finding and authenticating a user . . x. . . . . . . . . 437
+8.1.4 Rendering with a flash message . . . .x . . . . . . . . 441
+8.1.5 A flash test . . . . . . . . . . . . .x . . . . . . . . . . 445
+8.2 Logging in . . . . . . . . . . . . . . .x . . . . . . . . . . . . . 447
+8.2.1 The log_in method . . . . . . . . . . x. . . . . . . . 448
+8.2.2 Current user . . . . . . . . . . . . .x . . . . . . . . . . 451
+8.2.3 Changing the layout links . . . . . . x. . . . . . . . . 456
+8.2.4 Testing layout changes . . . . . . . . x. . . . . . . . . 463
+8.2.5 Login upon signup . . . . . . . . . . .x . . . . . . . . 470
+8.3 Logging out . . . . . . . . . . . . . . .x . . . . . . . . . . . . 473
+8.4 Conclusion . . . . . . . . . . . . . . . x. . . . . . . . . . . . 476
+8.4.1 What we learned in this chapter . . . .x . . . . . . . . 477
 
 9 Advanced login 479
 9.1 Remember me . . . . . . . . . . . . . . . . . . . . . . . . . . 479

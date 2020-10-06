@@ -21,12 +21,22 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Account
+          
+          
+          <% if logged_in?%>
+            <%="Hello "+ current_user.name%>
+          <%else%>
+            <%= "Account"%>
+          <% end %>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <%= link_to 'Sign up', signup_path, class:'dropdown-item' %>
-          <%= link_to 'Login', '#', class:'dropdown-item' %>
-          <%= link_to 'Logout', "#", class:'dropdown-item' %>
+          <%if logged_in?%>
+            <%= link_to 'Logout', logout_path, method: :delete, class:'dropdown-item' %>
+            <%= link_to 'Profile', current_user, class:'dropdown-item'  %>
+          <% else %>
+            <%= link_to 'Sign up', signup_path, class:'dropdown-item' %>
+            <%= link_to 'Login', login_path, class:'dropdown-item' %>
+          <% end %>
         </div>
       </li>
     </ul>
