@@ -31,3 +31,7 @@ label,
 input {
     width: 100%;
 }
+
+#session_remember_me {
+    width: unset;
+}
