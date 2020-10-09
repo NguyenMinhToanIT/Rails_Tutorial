@@ -8,6 +8,7 @@
 
 #main {
     overflow: hidden;
+    min-height: 773px;
 }
 
 #main h1,

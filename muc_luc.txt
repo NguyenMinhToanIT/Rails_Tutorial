@@ -216,20 +216,20 @@ REMEMBER YOUR TARGET
 
 11 Account activation 599
 11.1 Account activations resource . . . . . . . .x . . . . . . . . . . 601
-11.1.1 Account activations controller . . . . . . . . . . . . . 601
-11.1.2 Account activation data model . . . . . . . . . . . . . 603
-11.2 Account activation emails . . . . . . . . . . . . . . . . . . . . 610
-11.2.1 Mailer templates . . . . . . . . . . . . . . . . . . . . 610
-11.2.2 Email previews . . . . . . . . . . . . . . . . . . . . . 616
-11.2.3 Email tests . . . . . . . . . . . . . . . . . . . . . . . 618
-11.2.4 Updating the Users create action . . . . . . . . . . 623
-11.3 Activating the account . . . . . . . . . . . . . . . . . . . . . 626
-11.3.1 Generalizing the authenticated? method . . . . 628
-11.3.2 Activation edit action . . . . . . . . . . . . . . . . 633
-11.3.3 Activation test and refactoring . . . . . . . . . . . . . 638
-11.4 Email in production . . . . . . . . . . . . . . . . . . . . . . . 644
-11.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 647
-11.5.1 What we learned in this chapter . . . . . . . . . . . . 647
+11.1.1 Account activations controller . . . . . .x . . . . . . . 601
+11.1.2 Account activation data model . . . . . . .x . . . . . . 603
+11.2 Account activation emails . . . . . . . . . . x. . . . . . . . . . 610
+11.2.1 Mailer templates . . . . . . . . . . . . . x. . . . . . . 610
+11.2.2 Email previews . . . . . . . . . . . . . . .x . . . . . . 616
+11.2.3 Email tests . . . . . . . . . . . . . . . .x . . . . . . . 618
+11.2.4 Updating the Users create action . . . . . x. . . . . 623
+11.3 Activating the account . . . . . . . . . . .x . . . . . . . . . . 626
+11.3.1 Generalizing the authenticated? method . . x. . 628
+11.3.2 Activation edit action . . . . . . . . . . .x . . . . . 633
+11.3.3 Activation test and refactoring . . . . . .x . . . . . . . 638
+11.4 Email in production . . . . . . . . . . . . .x . . . . . . . . . . 644
+11.5 Conclusion . . . . . . . . . . . . . . . . . x. . . . . . . . . . 647
+11.5.1 What we learned in this chapter . . . . . .x . . . . . . 647
 
 
 
