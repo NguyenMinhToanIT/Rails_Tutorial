@@ -215,7 +215,7 @@ REMEMBER YOUR TARGET
 
 
 11 Account activation 599
-11.1 Account activations resource . . . . . . . . . . . . . . . . . . 601
+11.1 Account activations resource . . . . . . . .x . . . . . . . . . . 601
 11.1.1 Account activations controller . . . . . . . . . . . . . 601
 11.1.2 Account activation data model . . . . . . . . . . . . . 603
 11.2 Account activation emails . . . . . . . . . . . . . . . . . . . . 610
