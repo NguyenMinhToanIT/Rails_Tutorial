@@ -7,7 +7,7 @@
 }
 
 #main {
-    height: 750px;
+    overflow: hidden;
 }
 
 #main h1,
@@ -34,4 +34,23 @@ input {
 
 #session_remember_me {
     width: unset;
+}
+
+.edit_btn_back {
+    width: 25%;
+    margin-top: 2em;
+}
+
+.pagination li {
+    border: 1px solid blue;
+    padding: 5px 10px;
+    margin-right: 2px;
+}
+
+.pagination li.active {
+    background-color: #316ede;
+}
+
+.pagination li.active a {
+    color: white;
 }
