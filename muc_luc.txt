@@ -234,21 +234,21 @@ REMEMBER YOUR TARGET
 
 
 12 Password reset 651
-12.1 Password resets resource . . . . . . . . . . .11/10 . . . . . . . . . 655
-12.1.1 Password resets controller . . . . . . . . . . . . . . . 656
-12.1.2 New password resets . . . . . . . . . . . . . . . . . . 659
-12.1.3 Password reset create action . . . . . . . . . . . . 662
-12.2 Password reset emails . . . . . . . . . . . . . . . . . . . . . . 667
-12.2.1 Password reset mailer and templates . . . . . . . . . . 667
-12.2.2 Email tests . . . . . . . . . . . . . . . . . . . . . . . 674
-12.3 Resetting the password . . . . . . . . . . . . . . . . . . . . . 675
-12.3.1 Reset edit action . . . . . . . . . . . . . . . . . . . 675
-12.3.2 Updating the reset . . . . . . . . . . . . . . . . . . . 680
-12.3.3 Password reset test . . . . . . . . . . . . . . . . . . . 686
-12.4 Email in production (take two) . . . . . . . . . . . . . . . . . 692
-12.5 Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . 694
-12.5.1 What we learned in this chapter . . . . . . . . . . . . 696
-12.6 Proof of expiration comparison . . . . . . . . . . . . . . . . . 696
+12.1 Password resets resource . . . . . . . . . . .12/10 . . . . . . . . . 655
+12.1.1 Password resets controller . . . . . . . . . x. . . . . . 656
+12.1.2 New password resets . . . . . . . . . . . . . x. . . . . 659
+12.1.3 Password reset create action . . . . . . . . . x. . . 662
+12.2 Password reset emails . . . . . . . . . . . . . .x . . . . . . . . 667
+12.2.1 Password reset mailer and templates . . . . . .x . . . . 667
+12.2.2 Email tests . . . . . . . . . . . . . . . . . .x . . . . . 674
+12.3 Resetting the password . . . . . . . . . . . . .x . . . . . . . . 675
+12.3.1 Reset edit action . . . . . . . . . . . . . . x. . . . . 675
+12.3.2 Updating the reset . . . . . . . . . . . . . .x . . . . . 680
+12.3.3 Password reset test . . . . . . . . . . . . . x. . . . . . 686
+12.4 Email in production (take two) . . . . . . . . .x . . . . . . . . 692
+12.5 Conclusion . . . . . . . . . . . . . . . . . . .x . . . . . . . . 694
+12.5.1 What we learned in this chapter . . . . . . .x . . . . . 696
+12.6 Proof of expiration comparison . . . . . . . . x. . . . . . . . . 696
 
 
 
