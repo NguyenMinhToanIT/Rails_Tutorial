@@ -8,7 +8,6 @@
 
 #main {
     overflow: hidden;
-    min-height: 773px;
 }
 
 #main h1,
@@ -54,4 +53,17 @@ input {
 
 .pagination li.active a {
     color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.microposts li {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.microposts li p {
+    margin-bottom: 0px;
 }
